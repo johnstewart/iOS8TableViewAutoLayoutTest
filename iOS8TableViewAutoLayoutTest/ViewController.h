@@ -10,6 +10,7 @@
 
 @interface ViewController : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
 
