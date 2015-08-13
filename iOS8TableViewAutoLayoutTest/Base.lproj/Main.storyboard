@@ -26,6 +26,9 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGw-iR-bTm">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <color key="backgroundColor" red="1" green="0.91406082990000004" blue="0.045566947279999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="27" id="1TT-KV-Cdb"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -49,6 +52,9 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ah7-s3-PgO">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <color key="backgroundColor" red="0.33332845490000002" green="1" blue="0.93896696030000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="27" id="79a-cj-You"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -75,6 +81,10 @@
                             <outlet property="delegate" destination="rQK-o9-39x" id="hxc-NA-6gH"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="myImageViewHeightConstraint" destination="79a-cj-You" id="4Ic-sA-795"/>
+                        <outlet property="myLabelHeightConstraint" destination="1TT-KV-Cdb" id="iaC-UE-XWh"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KdW-hm-9RX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

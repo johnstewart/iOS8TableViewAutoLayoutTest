@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MyTableViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *myLabelHeightConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *myImageViewHeightConstraint;
 
 @end
