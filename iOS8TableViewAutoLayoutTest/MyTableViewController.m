@@ -27,6 +27,8 @@
     self.tableView.estimatedRowHeight = 44.0;
 
     NSLog(@"MVC vDL");
+    NSLog(@"self.myLabelHeightConstraint is %@", [self.myLabelHeightConstraint description]);
+    NSLog(@"self.myImageViewHeightConstraint is %@", [self.myImageViewHeightConstraint description]);
 
 }
 
