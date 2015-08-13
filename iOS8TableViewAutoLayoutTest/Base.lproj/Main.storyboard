@@ -45,6 +45,18 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Olr-qw-YB8" id="5m7-uX-sVT">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ah7-s3-PgO">
+                                                    <rect key="frame" x="8" y="8" width="584" height="27"/>
+                                                    <color key="backgroundColor" red="0.33332845490000002" green="1" blue="0.93896696030000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Ah7-s3-PgO" firstAttribute="top" secondItem="5m7-uX-sVT" secondAttribute="topMargin" id="CEh-dP-hWL"/>
+                                                <constraint firstItem="Ah7-s3-PgO" firstAttribute="leading" secondItem="5m7-uX-sVT" secondAttribute="leadingMargin" id="Cgs-nU-Yn4"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Ah7-s3-PgO" secondAttribute="bottom" id="ia6-R9-p0t"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Ah7-s3-PgO" secondAttribute="trailing" id="tQc-Uh-3AF"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5yw-LC-Rsy">
