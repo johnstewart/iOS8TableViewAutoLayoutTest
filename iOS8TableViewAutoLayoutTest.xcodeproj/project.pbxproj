@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B842A0431B7E40CA0041D1F1 /* MyDynamicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B842A0421B7E40CA0041D1F1 /* MyDynamicTableViewController.m */; };
 		B889228F1B7C5742008B8345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B889228E1B7C5742008B8345 /* main.m */; };
 		B88922921B7C5742008B8345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B88922911B7C5742008B8345 /* AppDelegate.m */; };
 		B88922981B7C5742008B8345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88922961B7C5742008B8345 /* Main.storyboard */; };
 		B889229B1B7C5742008B8345 /* iOS8TableViewAutoLayoutTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B88922991B7C5742008B8345 /* iOS8TableViewAutoLayoutTest.xcdatamodeld */; };
 		B889229D1B7C5742008B8345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889229C1B7C5742008B8345 /* Assets.xcassets */; };
 		B88922A01B7C5742008B8345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B889229E1B7C5742008B8345 /* LaunchScreen.storyboard */; };
-		B88922AB1B7C5742008B8345 /* iOS8TableViewAutoLayoutTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B88922AA1B7C5742008B8345 /* iOS8TableViewAutoLayoutTestTests.m */; };
-		B88922B61B7C5742008B8345 /* iOS8TableViewAutoLayoutTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B88922B51B7C5742008B8345 /* iOS8TableViewAutoLayoutTestUITests.m */; };
 		B88922EB1B7D3B56008B8345 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88922EA1B7D3B56008B8345 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B842A0411B7E40CA0041D1F1 /* MyDynamicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDynamicTableViewController.h; sourceTree = "<group>"; };
+		B842A0421B7E40CA0041D1F1 /* MyDynamicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDynamicTableViewController.m; sourceTree = "<group>"; };
 		B889228A1B7C5742008B8345 /* iOS8TableViewAutoLayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8TableViewAutoLayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B889228E1B7C5742008B8345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B88922901B7C5742008B8345 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,11 +47,7 @@
 		B889229F1B7C5742008B8345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B88922A11B7C5742008B8345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88922A61B7C5742008B8345 /* iOS8TableViewAutoLayoutTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8TableViewAutoLayoutTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B88922AA1B7C5742008B8345 /* iOS8TableViewAutoLayoutTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS8TableViewAutoLayoutTestTests.m; sourceTree = "<group>"; };
-		B88922AC1B7C5742008B8345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88922B11B7C5742008B8345 /* iOS8TableViewAutoLayoutTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8TableViewAutoLayoutTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B88922B51B7C5742008B8345 /* iOS8TableViewAutoLayoutTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS8TableViewAutoLayoutTestUITests.m; sourceTree = "<group>"; };
-		B88922B71B7C5742008B8345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88922E91B7D3B56008B8345 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
 		B88922EA1B7D3B56008B8345 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				B889228C1B7C5742008B8345 /* iOS8TableViewAutoLayoutTest */,
-				B88922A91B7C5742008B8345 /* iOS8TableViewAutoLayoutTestTests */,
-				B88922B41B7C5742008B8345 /* iOS8TableViewAutoLayoutTestUITests */,
 				B889228B1B7C5742008B8345 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +103,8 @@
 				B88922961B7C5742008B8345 /* Main.storyboard */,
 				B88922E91B7D3B56008B8345 /* MyTableViewController.h */,
 				B88922EA1B7D3B56008B8345 /* MyTableViewController.m */,
+				B842A0411B7E40CA0041D1F1 /* MyDynamicTableViewController.h */,
+				B842A0421B7E40CA0041D1F1 /* MyDynamicTableViewController.m */,
 				B889229C1B7C5742008B8345 /* Assets.xcassets */,
 				B889229E1B7C5742008B8345 /* LaunchScreen.storyboard */,
 				B88922A11B7C5742008B8345 /* Info.plist */,
@@ -123,24 +120,6 @@
 				B889228E1B7C5742008B8345 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B88922A91B7C5742008B8345 /* iOS8TableViewAutoLayoutTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				B88922AA1B7C5742008B8345 /* iOS8TableViewAutoLayoutTestTests.m */,
-				B88922AC1B7C5742008B8345 /* Info.plist */,
-			);
-			path = iOS8TableViewAutoLayoutTestTests;
-			sourceTree = "<group>";
-		};
-		B88922B41B7C5742008B8345 /* iOS8TableViewAutoLayoutTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B88922B51B7C5742008B8345 /* iOS8TableViewAutoLayoutTestUITests.m */,
-				B88922B71B7C5742008B8345 /* Info.plist */,
-			);
-			path = iOS8TableViewAutoLayoutTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +256,7 @@
 				B889229B1B7C5742008B8345 /* iOS8TableViewAutoLayoutTest.xcdatamodeld in Sources */,
 				B88922921B7C5742008B8345 /* AppDelegate.m in Sources */,
 				B889228F1B7C5742008B8345 /* main.m in Sources */,
+				B842A0431B7E40CA0041D1F1 /* MyDynamicTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88922AB1B7C5742008B8345 /* iOS8TableViewAutoLayoutTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88922B61B7C5742008B8345 /* iOS8TableViewAutoLayoutTestUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +480,7 @@
 				B88922BC1B7C5742008B8345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B88922BD1B7C5742008B8345 /* Build configuration list for PBXNativeTarget "iOS8TableViewAutoLayoutTestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +489,7 @@
 				B88922BF1B7C5742008B8345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B88922C01B7C5742008B8345 /* Build configuration list for PBXNativeTarget "iOS8TableViewAutoLayoutTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +498,7 @@
 				B88922C21B7C5742008B8345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
